@@ -1,0 +1,11 @@
+md5: e66eb2a1cd0da7ba3ae8b4770e44fa9e
+cmd: python train.py
+deps:
+- md5: 5dd7d81cf97bd622d8d18c73556e03e0
+  path: train_store.h5
+outs:
+- md5: 5044c5120864bf3f22060580bd673e6c
+  path: pipeline.pickle
+  cache: true
+  metric: false
+  persist: false

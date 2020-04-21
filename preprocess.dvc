@@ -1,0 +1,13 @@
+md5: 789b4fc7609d66bab2223d8776bba57a
+cmd: python preprocess.py
+deps:
+- md5: 7b918da5b26c8f97a53b837bfbc35b00
+  path: train_data.json
+- md5: 294191c260a4d3d5099730f9a37bb88b
+  path: core.py
+outs:
+- md5: 5dd7d81cf97bd622d8d18c73556e03e0
+  path: train_store.h5
+  cache: true
+  metric: false
+  persist: false

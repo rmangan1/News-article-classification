@@ -1,0 +1,13 @@
+md5: 504f802631676719c973672dbd40a5eb
+cmd: python predict.py predict_paylaod.json
+deps:
+- md5: 5044c5120864bf3f22060580bd673e6c
+  path: pipeline.pickle
+- md5: 294191c260a4d3d5099730f9a37bb88b
+  path: core.py
+outs:
+- md5: 0aad3c7c5de18c9a0927ec5fbb149be3
+  path: probas.json
+  cache: true
+  metric: false
+  persist: false
